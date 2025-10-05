@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Cards</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="book-container" id="bookContainer">
+            <!-- First row with special layout -->
+            <div class="first-row">
+                <div class="left-half">
+                    <div class="book-card big-card" data-sort="1">
+                        <div class="cover">
+                            <img src="img/cover1.png" alt="Book Cover">
+                        </div>
+                        <div class="text-content">
+                            <h3 class="title">Великий Гэтсби</h3>
+                            <p class="author">Фрэнсис Скотт Фицджеральд</p>
+                            <div class="description">
+                                <div class="description-text">
+                                    Роман о американской мечте, любви и трагедии в эпоху джаза. История загадочного миллионера Джея Гэтсби и его одержимости прекрасной Дэйзи Бьюкенен.
+                                </div>
+                                <button class="read-more">Читать полностью</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-half">
+                    <div class="book-card small-card" data-sort="1">
+                        <div class="cover">
+                            <img src="img/cover2.png" alt="Book Cover">
+                        </div>
+                        <div class="text-content">
+                            <h3 class="title">1984</h3>
+                            <p class="author">Джордж Оруэлл</p>
+                            <div class="description">
+                                <div class="description-text">
+                                    Антиутопический роман о тоталитарном обществе, где правительство контролирует каждую мысль и действие граждан.
+                                </div>
+                                <button class="read-more">Читать полностью</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book-card small-card" data-sort="1">
+                        <div class="cover">
+                            <img src="img/cover3.png" alt="Book Cover">
+                        </div>
+                        <div class="text-content">
+                            <h3 class="title">Убить пересмешника</h3>
+                            <p class="author">Харпер Ли</p>
+                            <div class="description">
+                                <div class="description-text">
+                                    История расовой несправедливости и морального роста, рассказанная глазами молодой девушки в Алабаме 1930-х годов.
+                                </div>
+                                <button class="read-more">Читать полностью</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book-card small-card" data-sort="1">
+                        <div class="cover">
+                            <img src="img/cover4.png" alt="Book Cover">
+                        </div>
+                        <div class="text-content">
+                            <h3 class="title">Гордость и предубеждение</h3>
+                            <p class="author">Джейн Остин</p>
+                            <div class="description">
+                                <div class="description-text">
+                                    Классический роман о любви, социальных ожиданиях и самопознании в Англии начала XIX века.
+                                </div>
+                                <button class="read-more">Читать полностью</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Standard cards -->
+            <div class="standard-grid">
+                <div class="book-card standard-card" data-sort="1">
+                    <div class="cover">
+                        <img src="img/cover5.png" alt="Book Cover">
+                    </div>
+                    <div class="text-content">
+                        <h3 class="title">Война и мир</h3>
+                        <p class="author">Лев Толстой</p>
+                        <div class="description">
+                            <div class="description-text">
+                                Эпический роман, охватывающий период наполеоновских войн и рассказывающий о судьбах нескольких аристократических семей. Один из самых значительных произведений мировой литературы.
+                            </div>
+                            <button class="read-more">Читать полностью</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="book-card standard-card" data-sort="1">
+                    <div class="cover">
+                        <img src="img/cover6.png" alt="Book Cover">
+                    </div>
+                    <div class="text-content">
+                        <h3 class="title">Преступление и наказание</h3>
+                        <p class="author">Фёдор Достоевский</p>
+                        <div class="description">
+                            <div class="description-text">
+                                Психологический роман о бывшем студенте Родионе Раскольникове, который совершает убийство и затем борется с моральными последствиями своего поступка.
+                            </div>
+                            <button class="read-more">Читать полностью</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="book-card standard-card" data-sort="2">
+                    <div class="cover">
+                        <img src="img/cover7.png" alt="Book Cover">
+                    </div>
+                    <div class="text-content">
+                        <h3 class="title">Гарри Поттер и философский камень</h3>
+                        <p class="author">Дж. К. Роулинг</p>
+                        <div class="description">
+                            <div class="description-text">
+                                Первая книга в серии о молодом волшебнике Гарри Поттере, который обнаруживает свои магические способности и поступает в школу чародейства и волшебства Хогвартс.
+                            </div>
+                            <button class="read-more">Читать полностью</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="book-card standard-card" data-sort="2">
+                    <div class="cover">
+                        <img src="img/cover8.png" alt="Book Cover">
+                    </div>
+                    <div class="text-content">
+                        <h3 class="title">Властелин колец: Братство кольца</h3>
+                        <p class="author">Дж. Р. Р. Толкин</p>
+                        <div class="description">
+                            <div class="description-text">
+                                Первая часть эпической трилогии о Средиземье, где хоббит Фродо Бэггинс должен уничтожить Кольцо Всевластия, чтобы спасти мир от темного владыки Саурона.
+                            </div>
+                            <button class="read-more">Читать полностью</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <button class="load-more">Смотреть еще</button>
+        <button class="shuffle-btn" id="shuffleBtn">Перемешать книги</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
